@@ -1,11 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Go Swift!"
-<<<<<<< HEAD
-date:   2020-12-20 18:54:57 +0300
-=======
 date:   2020-12-20 22:00:00 +0300
->>>>>>> ee2ace203d99bb87ea1b772aac9bc9d3b723bf1d
 categories: go swift
 ---
 [goSwift.org](https://goswift.org) is going to be dedicated to using [Swift](https://swift.org) and [Go](https://golang.org) programming languages on client and server respectively.
