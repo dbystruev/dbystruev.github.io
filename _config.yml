@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Swift for the client. Go for the server. That's what it is about.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: learnswiftru
 github_username:  dbystruev
 
 # Build settings
