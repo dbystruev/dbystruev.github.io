@@ -1,29 +1,26 @@
 ---
 layout: post
 title:  "Welcome to Go Swift!"
+<<<<<<< HEAD
 date:   2020-12-20 18:54:57 +0300
+=======
+date:   2020-12-20 22:00:00 +0300
+>>>>>>> ee2ace203d99bb87ea1b772aac9bc9d3b723bf1d
 categories: go swift
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+[goSwift.org](https://goswift.org) is going to be dedicated to using [Swift](https://swift.org) and [Go](https://golang.org) programming languages on client and server respectively.
 
-Jekyll requires blog post files to be named according to the following format:
+Many iOS clients are written in Swift, including the one from [Get Outift](https://github.com/dbystruev/Outfit-Selection.git).
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Initially [Get Outfit Server](https://github.com/dbystruev/Get-Outfit-Server.git) was using Swift as well, thanks to the great [Kitura](https://www.kitura.dev) framework. Unfortunately, after IBM [has stopped](https://forums.swift.org/t/december-12th-2019/31735) its Swift support in December of 2019, the framework was not developing as fast as [it should](https://vapor.codes).
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+However re-writing the server part from one Swift framework to another is not fun. Swift is a great language, but so far it had limited support from serverless platforms, though Apple did manage to persuade Amazon to run [Swift on AWS Lambda](https://developer.apple.com/videos/play/wwdc2020/10644).
 
-Jekyll also offers powerful support for code snippets:
+Probably this is a good opportunity to try something new. The learning path so far is the following:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+* A Tour of Go at [tour.golang.org](http://tour.golang.org)
+* A Hands-On RESTful Web Services with Go [book by Naren Yellavula](https://www.packtpub.com/product/hands-on-restful-web-services-with-go-second-edition/9781838643577)
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+The idea is to re-write the [Get Outfit](https://www.getoutfit.ru/uk) Server with Go and run it on AWS Lambda. There are still $50 credit from some old hackaton which should be enough to try.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Let's Go!
