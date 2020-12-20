@@ -10,7 +10,7 @@ Many iOS clients are written in Swift, including the one from [Get Outift](https
 
 Initially [Get Outfit Server](https://github.com/dbystruev/Get-Outfit-Server.git) was using Swift as well, thanks to the great [Kitura](https://www.kitura.dev) framework. Unfortunately, after IBM [has stopped](https://forums.swift.org/t/december-12th-2019/31735) its Swift support in December of 2019, the framework was not developing as fast as [it should](https://vapor.codes).
 
-However re-writing the server part from one Swift framework to another is not fun. Swift is a great language, but so far it had limited support from serverless platforms, though Apple did manage to persuade Amazon to run [Swift on AWS Lambda](https://developer.apple.com/videos/play/wwdc2020/10644).
+Re-writing the server part from one Swift framework to another is not fun. Swift is a great language, but so far it had limited support from serverless platforms, though Apple has implemented custom [Swift AWS Lambda runtime](https://developer.apple.com/videos/play/wwdc2020/10644) as presented at WWDC 2020.
 
 Probably this is a good opportunity to try something new. The learning path so far is the following:
 
